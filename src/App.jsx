@@ -36,35 +36,35 @@ const FEATURES = [
     body: "Find a viewing angle that works for you. Adjust the holder to position your phone in portrait or landscape.",
     label: "Rotation close-up",
     icon: "rotate",
-    src: "/360.jpg",
+    src: "/360c.jpeg",
   },
   {
     title: "Magnetic Phone Attachment",
     body: "Attach and remove your phone conveniently using the magnetic holding system.",
     label: "Magnetic mount close-up",
     icon: "magnet",
-    src: "/4.jpg",
+    src: "/4c.jpeg",
   },
   {
     title: "Strong Suction-Lock Base",
     body: "The twist-lock suction base is designed to attach to compatible smooth surfaces for a secure mounting position.",
     label: "Suction base close-up",
     icon: "suction",
-    src: "/5.jpg",
+    src: "/1c.jpeg",
   },
   {
     title: "Adjustable Folding Arm",
     body: "Position your phone at a comfortable angle, then fold the holder down for a compact setup.",
     label: "Folding arm photo",
     icon: "fold",
-    src: "/6.jpg",
+    src: "/6c.jpeg",
   },
   {
     title: "Compact and Portable",
     body: "A practical accessory that doesn't take up unnecessary space in your car or on your desk.",
     label: "Compact form photo",
     icon: "compact",
-    src: "/11.jpg",
+    src: "/7c.jpeg",
   },
 ];
 
@@ -73,19 +73,19 @@ const USE_CASES = [
     title: "Your Car",
     body: "Keep navigation conveniently positioned and your dashboard setup organised.",
     label: "In-car photo",
-    src: "/2.jpg",
+    src: "/2c.jpeg",
   },
   {
     title: "Your Workspace",
     body: "Position your phone beside your laptop for convenient viewing while working.",
     label: "Desk photo",
-    src: "/3.jpg",
+    src: "/3c.jpeg",
   },
   {
     title: "Your Everyday Space",
     body: "Use it wherever you have a suitable smooth surface and want your phone within view.",
     label: "Home photo",
-    src: "/4.jpg",
+    src: "/4c.jpeg",
   },
 ];
 
@@ -95,21 +95,21 @@ const STEPS = [
     title: "Prepare the Surface",
     body: "Clean and dry a suitable smooth mounting surface.",
     label: "Step 1 photo",
-    src: "/step1.jpg",
+    src: "/step1c.jpeg",
   },
   {
     n: "02",
     title: "Secure the Base",
     body: "Position the suction base and use its locking mechanism to secure it.",
     label: "Step 2 photo",
-    src: "/step2.jpg",
+    src: "/step2c.jpeg",
   },
   {
     n: "03",
     title: "Attach and Adjust",
     body: "Attach your compatible phone magnetically and adjust the viewing angle.",
     label: "Step 3 photo",
-    src: "/step33.jpg",
+    src: "/step3c.jpeg",
   },
 ];
 
@@ -167,14 +167,14 @@ const VIDEOS = [
     id: "car",
     title: "Real-Life Demonstration",
     body: "Watch the holder being used in an actual car.",
-    src: "/1R.mp4",
+    src: "/1RR-web.mp4",
     poster: "/poster1.png",
   },
   {
     id: "setup",
     title: "Magnetic Attachment & Suction-Lock",
     body: "See the phone attach, detach and the base lock onto a smooth surface.",
-    src: "/2R.mp4",
+    src: "/2RR-web.mp4",
     poster: "/poster2.png",
   },
 ];
@@ -405,9 +405,9 @@ export default function OddkitPage() {
           description:
             "A magnetic phone holder with 360° adjustable rotation, an adjustable folding arm and a twist-lock suction base for compatible smooth surfaces.",
           image: [
-            "https://oddkit.pk/1.jpg",
-            "https://oddkit.pk/2.jpg",
-            "https://oddkit.pk/3.jpg",
+            "https://oddkit.pk/1.jpeg",
+            "https://oddkit.pk/2.jpeg",
+            "https://oddkit.pk/3.jpeg",
           ],
           offers: {
             "@type": "Offer",
@@ -628,7 +628,7 @@ function Hero() {
             />
             <div className="relative">
               <Media
-                src="/hero.jpg"
+                src="/heroc.jpeg"
                 tone="dark"
                 ratio="aspect-[4/5]"
                 rounded="rounded-[2rem]"
@@ -679,7 +679,7 @@ function ProblemSolution() {
           </div>
 
           <Media
-            src="/spaces.jpg"
+            src="/spacesc.jpeg"
             ratio="aspect-[4/3]"
             rounded="rounded-[1.75rem]"
             alt="Phone mounted on a car dashboard using the ODDKIT magnetic holder."
